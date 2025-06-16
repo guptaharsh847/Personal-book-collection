@@ -27,20 +27,15 @@ Cloudinary account (free)
 
 🚀 Getting Started
 🔧 1. Clone the repo
-bash
-Copy
-Edit
-git clone https://github.com/your-username/book-collection-app.git
-cd book-collection-app
+
+
 📁 2. Setup Backend
-bash
-Copy
-Edit
+
 cd backend
 npm install
 🛠️ Create .env file inside backend/
 ini
-Copy
+ 
 Edit
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_key
@@ -48,21 +43,21 @@ CLOUDINARY_API_SECRET=your_cloudinary_secret
 MONGODB_URI=your_mongodb_connection_string
 PORT=5000
 ▶️ Start Backend
-bash
-Copy
+ 
+  
 Edit
 npm start       # or nodemon server.js if using nodemon
 App will run at http://localhost:5000
 
 🌐 3. Setup Frontend
-bash
-Copy
+ 
+  
 Edit
 cd ../frontend
 npm install
 ▶️ Start Frontend
-bash
-Copy
+ 
+  
 Edit
 npm start
 Frontend runs at http://localhost:3000
